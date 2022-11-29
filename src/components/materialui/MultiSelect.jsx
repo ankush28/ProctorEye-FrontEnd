@@ -24,7 +24,7 @@ export default function MultiSelect({
       options={options}
       disableCloseOnSelect
       limitTags={3}
-      getOptionLabel={(option) => option[name]}
+      getOptionLabel={(option) => option.name?option.name:''}
       renderOption={(option, { selected }) => (
         <React.Fragment>
           <Checkbox

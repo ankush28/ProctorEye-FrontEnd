@@ -30,7 +30,7 @@ const Header = (props) => {
       align="center"
       width="100%"
       justify="space-between"
-      background="#47926E"
+      background="#344D67"
       height="50px"
     >
       <Container
@@ -40,16 +40,16 @@ const Header = (props) => {
         align="center"
         padding="10px"
       >
-        <img width="40px" src={Logo} alt="Oexamination" />
+        <img width="40px" src={Logo} alt="ProctorEye" />
         <Text
           family="Purisa"
           size="25px"
           weight="bold"
-          color="#F3EA16"
+          color="#FEFCF3"
           margin="0 0 0 1vw"
           lineHeight="0px"
         >
-          Oexamination
+          ProctorEye
         </Text>
       </Container>
       <Container
@@ -103,7 +103,7 @@ const Header = (props) => {
               margin="0px 10px 0px 0px"
               width="90px"
               background={
-                history.location.pathname === "/signup" ? "#D24C4C" : "#963B3B"
+                history.location.pathname === "/signup" ? "#285430" : "#5F8D4E"
               }
               onClick={() => {
                 history.push("/signin");
@@ -115,7 +115,7 @@ const Header = (props) => {
               height="35px"
               width="90px"
               background={
-                history.location.pathname === "/signin" ? "#D24C4C" : "#963B3B"
+                history.location.pathname === "/signin" ? "#285430" : "#5F8D4E"
               }
               onClick={() => {
                 history.push("/signup");

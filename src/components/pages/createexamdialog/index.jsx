@@ -47,7 +47,7 @@ const CreateExamDialog = () => {
       open={open}
       MainButton={(props) => (
         <IconButtons
-          backgroundColor="#47926E"
+          backgroundColor="#344D67"
           height="10px"
           width="10px"
           position="absolute"

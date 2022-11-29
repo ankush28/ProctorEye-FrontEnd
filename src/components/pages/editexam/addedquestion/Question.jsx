@@ -49,7 +49,7 @@ const Question = ({ question, idx, onRemove }) => {
           right="0px"
           width="60px"
           height="30px"
-          background="#D24C4C"
+          background="#285430"
           onClick={(e) => onRemove(e, idx)}
         >
           Remove

@@ -76,7 +76,7 @@ const ExamDetails = ({ details, setDetails }) => {
         <Button
           width="100px"
           height="40px"
-          background="#D24C4C"
+          background="#285430"
           onClick={async () => {
             if (await dispatch(deleteExam(details._id))) history.push("/host");
           }}
